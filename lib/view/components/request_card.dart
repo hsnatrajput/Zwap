@@ -7,9 +7,6 @@ import 'package:zwap_test/model/user.dart';
 import 'package:zwap_test/res/colors/colors.dart';
 import 'package:zwap_test/utils/api.dart';
 import 'package:zwap_test/utils/connection.dart';
-import 'package:zwap_test/view/components/health_badge.dart';
-import 'package:zwap_test/view/home.dart';
-import 'package:zwap_test/view/requests.dart';
 
 class RequestCard extends StatefulWidget {
   final Request requests;

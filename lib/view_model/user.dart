@@ -1,4 +1,3 @@
-import 'dart:convert';
 
 import 'package:http/http.dart' as http;
 import 'package:zwap_test/utils/token_manager.dart';
@@ -19,7 +18,7 @@ class UserViewModel {
           .get(Uri.parse("https://zwap.codeshar.com/sanctum/csrf-cookie"));
       if (response.statusCode == 204) {
         xsrfToken = response.headers['set-cookie'];
-        TokenManager.setToken(xsrfToken!);
+        TokenManager.setToken(xsrfToken);
       } else {
         throw Exception('Failed to fetch CSRF token: ${response.statusCode}');
       }

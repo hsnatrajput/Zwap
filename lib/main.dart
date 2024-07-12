@@ -7,7 +7,6 @@ import 'package:zwap_test/utils/dio_interceptor.dart';
 import 'package:zwap_test/view/onboarding.dart';
 import 'package:zwap_test/view/splash_screen.dart';
 import 'dart:convert';
-import 'package:http/http.dart' as http;
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

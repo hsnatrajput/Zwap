@@ -1,15 +1,6 @@
-import 'dart:convert';
-import 'dart:math';
 
 import 'package:dio/dio.dart';
-import 'package:zwap_test/model/categories.dart';
-import 'package:zwap_test/model/conditions.dart';
-import 'package:zwap_test/model/locations.dart';
-import 'package:zwap_test/model/post.dart';
-import 'package:zwap_test/model/user.dart';
 import 'package:zwap_test/utils/dio_interceptor.dart';
-import 'package:http/http.dart' as http;
-import 'package:zwap_test/utils/token_manager.dart';
 
 class ImageUploadService {
   late final Dio _dio;

@@ -8,7 +8,6 @@ import 'package:zwap_test/utils/api.dart';
 import 'package:zwap_test/utils/connection.dart';
 import 'package:zwap_test/view/add_locations.dart';
 import 'package:zwap_test/view/components/buttons/primaryLarge.dart';
-import 'package:zwap_test/view/home.dart';
 
 class AddInterestsScreen extends StatefulWidget {
   final String previousScreen;

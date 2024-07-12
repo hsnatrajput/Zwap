@@ -10,7 +10,6 @@ import 'package:zwap_test/view/components/buttons/primaryLarge.dart';
 import 'package:zwap_test/res/colors/colors.dart';
 import 'package:zwap_test/view/home.dart';
 import 'package:zwap_test/view/user_auth/signin.dart';
-import 'package:zwap_test/view/user_auth/verify.dart';
 import 'package:zwap_test/view/components/textFields/outlined.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 

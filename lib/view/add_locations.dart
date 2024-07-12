@@ -39,7 +39,7 @@ class _AddLocationsScreenState extends State<AddLocationsScreen> {
     User currentUser = await user.getUser(null);
     List<Locations> locations = await user.getUserLocations(currentUser.id);
     setState(() {
-      locationsSelected = locations.map((e) => e.id!).toList();
+      locationsSelected = locations.map((e) => e.id).toList();
     });
   }
 
@@ -113,10 +113,10 @@ class _AddLocationsScreenState extends State<AddLocationsScreen> {
                                         4.0, // Vertical space between lines
                                     children: locations.map((location) {
                                       bool isSelected = locationsSelected
-                                          .contains(location.id!);
+                                          .contains(location.id);
                                       return FilterChip(
                                         label: Text(
-                                          location.name!,
+                                          location.name,
                                           textAlign: TextAlign.center,
                                           style: GoogleFonts.manrope(
                                             fontSize: 14,
@@ -137,10 +137,10 @@ class _AddLocationsScreenState extends State<AddLocationsScreen> {
                                           setState(() {
                                             if (value) {
                                               locationsSelected
-                                                  .add(location.id!);
+                                                  .add(location.id);
                                             } else {
                                               locationsSelected
-                                                  .remove(location.id!);
+                                                  .remove(location.id);
                                             }
                                           });
                                           print(locationsSelected);

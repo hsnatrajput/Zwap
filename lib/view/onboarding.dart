@@ -3,7 +3,6 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:zwap_test/global/commons/toast.dart';
 import 'package:zwap_test/res/colors/colors.dart';
 import 'package:zwap_test/utils/connection.dart';
-import 'package:zwap_test/view/home.dart';
 import 'package:zwap_test/view/user_auth/signin.dart';
 import 'package:zwap_test/view/user_auth/signup.dart';
 import 'package:zwap_test/view_model/user.dart';

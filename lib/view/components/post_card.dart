@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:zwap_test/model/post.dart';
 import 'package:zwap_test/model/user.dart';
-import 'package:zwap_test/res/colors/colors.dart';
 import 'package:zwap_test/utils/api.dart';
 import 'package:zwap_test/view/components/health_badge.dart';
 import 'package:zwap_test/view/product_details.dart';

@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:zwap_test/global/commons/toast.dart';
 import 'package:zwap_test/model/post.dart';
 import 'package:zwap_test/model/user.dart';
 import 'package:zwap_test/utils/api.dart';
 import 'package:zwap_test/view/components/buttons/primaryLarge.dart';
 import 'package:zwap_test/view/components/health_badge.dart';
-import 'package:zwap_test/view/components/post_card.dart';
 
 class ExchangeScreen extends StatefulWidget {
   @override

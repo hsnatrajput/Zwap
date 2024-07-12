@@ -1,7 +1,5 @@
 import 'dart:io';
 
-import 'package:connectivity_plus/connectivity_plus.dart';
-import 'package:zwap_test/global/commons/toast.dart';
 
 Future isConnected() async {
   // var connectivityResult = await (Connectivity().checkConnectivity());

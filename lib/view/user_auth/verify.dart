@@ -3,8 +3,6 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:zwap_test/res/colors/colors.dart';
-import 'package:zwap_test/global/commons/toast.dart';
-import 'package:zwap_test/view/home.dart';
 
 class VerifyScreen extends StatefulWidget {
   @override

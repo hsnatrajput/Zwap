@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:zwap_test/res/colors/colors.dart';
 import 'package:zwap_test/view/chat_room.dart';
-import 'package:zwap_test/view/profile.dart';
 
 class ChatScreen extends StatelessWidget {
   @override

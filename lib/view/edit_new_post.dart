@@ -241,7 +241,7 @@ class _EditNewPostScreenState extends State<EditNewPostScreen> {
                               initialSelectedItems: selectedLocations.isEmpty
                                   ? []
                                   : selectedLocations
-                                      .map((e) => e.name!)
+                                      .map((e) => e.name)
                                       .toList(),
                               returnLocations: true,
                             ),

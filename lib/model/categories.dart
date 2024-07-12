@@ -1,10 +1,9 @@
-import 'package:zwap_test/model/post.dart';
 
 class Categories {
   int? id;
   String? name;
   String? description;
-  Null? parentId;
+  Null parentId;
   String? createdAt;
   String? updatedAt;
 

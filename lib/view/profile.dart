@@ -16,7 +16,6 @@ import 'package:zwap_test/view/components/buttons/primaryLarge.dart';
 import 'package:zwap_test/view/components/post_card.dart';
 import 'package:zwap_test/view/edit_new_post.dart';
 import 'package:zwap_test/view/edit_profile.dart';
-import 'package:zwap_test/view/filters/categories.dart';
 import 'package:zwap_test/view/user_auth/signin.dart';
 
 class ProfileScreen extends StatefulWidget {
@@ -240,7 +239,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                                   backgroundImage: widget.loggedInUser != null
                                       ? NetworkImage(
                                           widget.currentUser.logo ??
-                                              'https://avatar.iran.liara.run/username?username=${widget.currentUser!.firstName}+${widget.currentUser!.lastName}',
+                                              'https://avatar.iran.liara.run/username?username=${widget.currentUser.firstName}+${widget.currentUser.lastName}',
                                         )
                                       : NetworkImage(
                                           'https://avatar.iran.liara.run/username?username=${widget.currentUser.firstName}+${widget.currentUser.lastName}',
